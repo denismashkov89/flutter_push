@@ -47,9 +47,9 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Stack(
         children: [
           Align(
-            alignment: const Alignment(0, -0.8),
+            alignment: const Alignment(0, -0.9),
             child: Text(
-              "The your\nreaction speed",
+              "Test your\nreaction speed",
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 38,
@@ -70,8 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         fontSize: 36,
-                        fontWeight: FontWeight.w500,
-                        color: Colors.white),
+                        fontWeight: FontWeight.w500,color: Colors.white),
                   ),
                 ),
               ),
